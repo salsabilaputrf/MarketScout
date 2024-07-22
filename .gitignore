@@ -1,2 +1,3 @@
 be/.gitignore
 fe/.gitignore
+be/.env
