@@ -4,6 +4,10 @@
 ### Introduction
 > This system is designed to analyze the suitability of a location for retail based on consumer demographics, retail trend prediction, integration of economic and social data, dashboard analytics, and real-time monitoring. The system aims to assist stakeholders such as property developers, investors, urban planners, market analysts, and business owners in making informed decisions about potential retail locations.
 
+### Status: In Progress
+> [!NOTE]
+> This application/project is currently under development. Features and functionalities are being actively worked on and are subject to change.
+
 ### Features
 **1. Mapping and Location Search**
   > **Interactive Map Integration:** Visualize the location being analyzed.
