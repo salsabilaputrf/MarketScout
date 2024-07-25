@@ -46,7 +46,7 @@
   > **APIs:** Implement RESTful APIs for managing location data, demographic analysis, and predictive analytics.
 
 **Frontend:** Angular
-  > **Framework:** Angular for the user interface.
+  > **Framework:** Vue.js for the user interface.
 
   > **Components:** Integrate interactive maps and data visualization components.
 
