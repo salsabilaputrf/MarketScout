@@ -20,11 +20,16 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  display: flex; /* Menambahkan Flexbox */
+  flex-direction: column; /* Mengatur arah kolom */
+  align-items: center; /* Mengatur elemen agar sejajar di tengah secara horizontal */
+  justify-content: flex-start; /* Mengatur elemen agar sejajar di tengah secara vertikal */
   width: 100%;
-  align-items: center;
-  max-width: auto;
-  min-width: auto;
-  margin: 10px 0;
+  max-width: 1900px;
+  min-width: 1200px;
+  margin: 0 auto; /* Memusatkan elemen secara horizontal */
+  height: 100vh; /* Memastikan elemen mengambil tinggi penuh dari viewport */
 }
+
 
 </style>

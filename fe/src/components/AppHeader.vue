@@ -37,17 +37,21 @@ export default {
   align-items: center;
   column-gap: 1rem;
   margin: 0 auto; /* Pusatkan konten secara horizontal */
-  width: 100%; /* Mengisi lebar kontainer */
+  width: inherit; /* Mengisi lebar kontainer */
   padding: 10px;
+  background-color: rgb(229, 237, 148);
+ 
 } 
 
 .logo-col {
-  width: 10%;
+  width: 5%;
 
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
+  width: 60px;
+  width: fit-content;
 }
 
 .nav-col {
@@ -60,7 +64,7 @@ nav {
   flex-wrap: wrap; /* Menambahkan flex-wrap */
   gap: 2.5rem; /* Menambahkan jarak antar elemen nav */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size:larger;
+  font-size:medium;
   font-weight: 500;
   color: black;
 }
@@ -74,8 +78,8 @@ nav nuxt-link:hover {
 }
 
 .button-col {
-  width: 10%;
-  padding-right: 20px;
+  width: 15%;
+ 
 }
 
 .get-started-button {
@@ -90,5 +94,15 @@ nav nuxt-link:hover {
   background-color: lime; /* Warna latar belakang saat hover */
   color: #fff; /* Warna teks saat hover */
   border-color: lime; /* Warna outline saat hover */
+}
+@media (min-width: 1200px) {
+  .get-started-button {
+    padding: 0.75rem 1.5rem; /* Menambah padding pada layar besar */
+    font-size: 1.25rem; /* Menambah ukuran font pada layar besar */
+  }
+
+  nav.navbar {
+    font-size: 14px;
+  }
 }
 </style>
